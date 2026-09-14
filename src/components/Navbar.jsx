@@ -18,7 +18,7 @@ const NavBar = () => {
         <div className='flex items-center justify-between py-4 px-3 sm:px-5 font-medium bg-[#7ccfff] dark:bg-gray-900 shadow-md fixed top-0 left-0 right-0 z-50 transition-colors'>
             <Link to="/" className="font-display text-primary dark:text-[#02ADEE]">
                 <div className="flex items-center gap-1 sm:gap-2">
-                <span className="text-base sm:text-xl md:text-2xl whitespace-nowrap">YMGS Pharmacy</span>
+                <img src={assets.logo} alt="Nehed Medical Trading" className="h-9 sm:h-11 w-auto rounded bg-white p-0.5" />
                 </div>
             </Link>
 

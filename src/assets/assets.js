@@ -14,7 +14,7 @@ import image2 from "./image2.png"
 import image3 from "./image3.png"
 import about from './about.jpg'
 import contact from "./Contact-Us.png"
-import logo from "./logo.png"
+import logo from "./logo.jpg"
 
 export const assets = {
     cart_icon,
