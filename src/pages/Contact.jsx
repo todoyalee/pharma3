@@ -15,9 +15,9 @@ const Contact = () => {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [contactInfo, setContactInfo] = useState({
-    contactEmail: 'ymgspharmacy@gmail.com',
-    contactPhone: '+91 8858284423',
-    contactAddress: '123 Fresh Market Lane, Garden District, Green City 12345',
+    contactEmail: 'm.a.belkouri@gmail.com',
+    contactPhone: '+216 20 123 456',
+    contactAddress: 'Tunis, Tunisia',
     businessHours: 'Mon - Sat: 8:00 AM - 8:00 PM\nSunday: 9:00 AM - 6:00 PM'
   })
   const [loading, setLoading] = useState(true)
@@ -122,7 +122,7 @@ const Contact = () => {
           <img 
             src={assets.contact}
             className='w-full md:max-w-[480px] rounded-2xl' 
-            alt="Fresh produce delivery" 
+            alt="Contact Nehed Medical Trading"
             loading="eager"
             width="480"
             height="360"
@@ -132,8 +132,8 @@ const Contact = () => {
           <div className='flex flex-col justify-center items-start gap-8'>
             <div>
               <p className='font-semibold text-xl text-gray-800 dark:text-gray-200 mb-4'>Get In Touch</p>
-              <p className='text-gray-600 dark:text-gray-300 max-w-md'>Have questions about our products or delivery? 
-                We&apos;re are here to help you get all FDA approved quality medicines at best prices.</p>
+              <p className='text-gray-600 dark:text-gray-300 max-w-md'>Have questions about our diagnostic analyzers or rapid test kits?
+                Nehed Medical Trading is here to help healthcare providers across Tunisia and beyond get the right equipment at the best prices.</p>
             </div>
 
             <div className='flex flex-col gap-6'>

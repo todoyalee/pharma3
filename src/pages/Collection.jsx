@@ -3,6 +3,7 @@ import { ShopContext } from '../context/ShopContext';
 import { assets } from '../assets/assets';
 import Title from '../components/Title';
 import ProductItem from '../components/ProductItem';
+import DiagnosticSolutions from '../components/DiagnosticSolutions';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, ShoppingCart, Loader2, X } from 'lucide-react';
 
@@ -194,7 +195,14 @@ const Collection = () => {
   };
 
   return (
-    <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t dark:border-gray-700 dark:bg-gray-800'>
+    <div className='dark:bg-gray-800'>
+      <DiagnosticSolutions />
+
+      <div className='text-2xl text-center pt-4 border-t dark:border-gray-700'>
+        <Title text1={'CATALOG'} text2={'PRODUCTS'} />
+      </div>
+
+    <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 dark:bg-gray-800'>
       {/* Filter Section */}
       <div className='min-w-60'>
         <div className="flex items-center justify-between mb-4">
@@ -263,64 +271,54 @@ const Collection = () => {
           <p className='mb-3 text-sm font-medium dark:text-gray-200'>CATEGORIES</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700 dark:text-gray-300'>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Prescription' 
-                checked={categoryFilters.includes('Prescription')}
-                onChange={(e) => handleCategoryToggle(e.target.value)} 
-              /> 
-              Prescription Medicines
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Hematology Analyzers'
+                checked={categoryFilters.includes('Hematology Analyzers')}
+                onChange={(e) => handleCategoryToggle(e.target.value)}
+              />
+              Hematology Analyzers
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='OTC' 
-                checked={categoryFilters.includes('OTC')}
-                onChange={(e) => handleCategoryToggle(e.target.value)} 
-              /> 
-              Over The Counter
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='POCT Analyzers'
+                checked={categoryFilters.includes('POCT Analyzers')}
+                onChange={(e) => handleCategoryToggle(e.target.value)}
+              />
+              Point-of-Care Analyzers
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Healthcare' 
-                checked={categoryFilters.includes('Healthcare')}
-                onChange={(e) => handleCategoryToggle(e.target.value)} 
-              /> 
-              Healthcare Devices
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Rapid Tests'
+                checked={categoryFilters.includes('Rapid Tests')}
+                onChange={(e) => handleCategoryToggle(e.target.value)}
+              />
+              Rapid Diagnostic Tests
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Wellness' 
-                checked={categoryFilters.includes('Wellness')}
-                onChange={(e) => handleCategoryToggle(e.target.value)} 
-              /> 
-              Wellness Products
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Reagents & Controls'
+                checked={categoryFilters.includes('Reagents & Controls')}
+                onChange={(e) => handleCategoryToggle(e.target.value)}
+              />
+              Reagents & Controls
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Personal Care' 
-                checked={categoryFilters.includes('Personal Care')}
-                onChange={(e) => handleCategoryToggle(e.target.value)} 
-              /> 
-              Personal Care
-            </p>
-            <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Ayurvedic' 
-                checked={categoryFilters.includes('Ayurvedic')}
-                onChange={(e) => handleCategoryToggle(e.target.value)} 
-              /> 
-              Ayurvedic Medicines
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Accessories'
+                checked={categoryFilters.includes('Accessories')}
+                onChange={(e) => handleCategoryToggle(e.target.value)}
+              />
+              Accessories & Consumables
             </p>
           </div>
         </div>
@@ -329,74 +327,64 @@ const Collection = () => {
           <p className='mb-3 text-sm font-medium dark:text-gray-200'>TYPE</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700 dark:text-gray-300'>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Tablets' 
-                checked={subCategoryFilters.includes('Tablets')}
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Analyzer'
+                checked={subCategoryFilters.includes('Analyzer')}
                 onChange={(e) => handleSubCategoryToggle(e.target.value)}
-              /> 
-              Tablets
+              />
+              Analyzer
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Capsules' 
-                checked={subCategoryFilters.includes('Capsules')}
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Test Kit'
+                checked={subCategoryFilters.includes('Test Kit')}
                 onChange={(e) => handleSubCategoryToggle(e.target.value)}
-              /> 
-              Capsules
+              />
+              Test Kit
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Syrups' 
-                checked={subCategoryFilters.includes('Syrups')}
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Strip'
+                checked={subCategoryFilters.includes('Strip')}
                 onChange={(e) => handleSubCategoryToggle(e.target.value)}
-              /> 
-              Syrups
+              />
+              Strip
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Injectables' 
-                checked={subCategoryFilters.includes('Injectables')}
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Cassette'
+                checked={subCategoryFilters.includes('Cassette')}
                 onChange={(e) => handleSubCategoryToggle(e.target.value)}
-              /> 
-              Injectables
+              />
+              Cassette
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Topical' 
-                checked={subCategoryFilters.includes('Topical')}
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Panel'
+                checked={subCategoryFilters.includes('Panel')}
                 onChange={(e) => handleSubCategoryToggle(e.target.value)}
-              /> 
-              Topical Applications
+              />
+              Panel
             </p>
             <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Drops' 
-                checked={subCategoryFilters.includes('Drops')}
+              <input
+                className='w-3 accent-gray-700 dark:accent-yellow-400'
+                type='checkbox'
+                value='Consumable'
+                checked={subCategoryFilters.includes('Consumable')}
                 onChange={(e) => handleSubCategoryToggle(e.target.value)}
-              /> 
-              Drops
-            </p>
-            <p className='flex gap-2'>
-              <input 
-                className='w-3 accent-gray-700 dark:accent-yellow-400' 
-                type='checkbox' 
-                value='Equipment' 
-                checked={subCategoryFilters.includes('Equipment')}
-                onChange={(e) => handleSubCategoryToggle(e.target.value)}
-              /> 
-              Medical Equipment
+              />
+              Consumable
             </p>
           </div>
         </div>
@@ -483,6 +471,7 @@ const Collection = () => {
           </>
         )}
       </div>
+    </div>
     </div>
   );
 };

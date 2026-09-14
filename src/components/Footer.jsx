@@ -5,8 +5,8 @@ import { assets } from '../assets/assets';
 
 const Footer = () => {
   const [contactInfo, setContactInfo] = useState({
-    footerEmail: 'ymgspharmacy@gmail.com',
-    footerPhone: '+91 8858284423'
+    footerEmail: 'm.a.belkouri@gmail.com',
+    footerPhone: '+216 20 123 456'
   });
   const [loading, setLoading] = useState(true);
 
@@ -67,6 +67,7 @@ const Footer = () => {
               <li className="text-sm opacity-70">Loading contact information...</li>
             ) : (
               <>
+                <li>Tunis, Tunisia</li>
                 <li>{contactInfo.footerPhone}</li>
                 <li>{contactInfo.footerEmail}</li>
               </>
@@ -77,7 +78,7 @@ const Footer = () => {
       <div>
         <hr className="border-gray-300 dark:border-gray-700" />
         <p className="py-5 text-sm text-center text-gray-600 dark:text-gray-300">
-          Nehed Medical Trading &copy; 2025 All Rights Reserved.
+          Nehed Medical Trading, Tunisia &copy; 2025 All Rights Reserved.
         </p>
       </div>
     </div>

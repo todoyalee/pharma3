@@ -11,42 +11,42 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Sarah Johnson",
-      role: "Regular Customer",
+      role: "Laboratory Director",
       image: "https://randomuser.me/api/portraits/women/32.jpg",
       stars: 5,
-      text: "YMGS Pharmacy has been a lifesaver for me. Their quick delivery and genuine medicines have made managing my health so much easier. The online ordering process is seamless!"
+      text: "Nehed Medical Trading has been a great partner for our lab. The Mission HA-360 analyzer arrived quickly and their support team made setup effortless. Highly reliable service!"
     },
     {
       id: 2,
       name: "Michael Chen",
-      role: "Monthly Subscriber",
+      role: "Clinic Procurement Manager",
       image: "https://randomuser.me/api/portraits/men/45.jpg",
       stars: 5,
-      text: "I appreciate the consistency and reliability of YMGS Pharmacy. Their subscription service ensures I never run out of my regular medications, and their customer support is excellent."
+      text: "We reorder our Wondfo rapid test kits every month and the consistency is excellent. Stock never runs low and their customer support is always responsive."
     },
     {
       id: 3,
       name: "Priya Patel",
-      role: "Healthcare Professional",
+      role: "Clinical Chemist",
       image: "https://randomuser.me/api/portraits/women/68.jpg",
       stars: 4,
-      text: "As a healthcare worker, I'm particular about medicine quality. YMGS consistently delivers authentic products and their service is prompt and professional. Highly recommended!"
+      text: "As a clinical chemist, I'm particular about instrument accuracy. The On-Call MultiPro system consistently delivers precise HbA1c and CRP results, and the service was prompt and professional."
     },
     {
       id: 4,
       name: "David Wilson",
-      role: "First-time Customer",
+      role: "Hospital Administrator",
       image: "https://randomuser.me/api/portraits/men/22.jpg",
       stars: 5,
-      text: "I was skeptical about ordering medicines online, but YMGS Pharmacy exceeded my expectations. The medications arrived on time and were exactly what I needed. Will definitely use again!"
+      text: "I was new to sourcing diagnostic equipment, but Nehed Medical Trading exceeded my expectations. The analyzer arrived on time and was exactly as described. Will definitely order again!"
     },
     {
       id: 5,
       name: "Anita Sharma",
-      role: "Senior Citizen",
+      role: "Pharmacy Owner",
       image: "https://randomuser.me/api/portraits/women/56.jpg",
       stars: 5,
-      text: "The home delivery service from YMGS Pharmacy is a blessing for seniors like me. The delivery staff is courteous, and the medicine packages are sealed properly. Very satisfied!"
+      text: "The delivery service from Nehed Medical Trading is excellent. The team is courteous, and every rapid test box arrives properly sealed and well packaged. Very satisfied!"
     }
   ];
 
@@ -61,7 +61,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
-            Read testimonials from our satisfied customers who trust YMGS Pharmacy for their healthcare needs.
+            Read testimonials from our satisfied customers who trust Nehed Medical Trading for their diagnostic equipment needs.
           </p>
         </div>
         

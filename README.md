@@ -1,12 +1,10 @@
-# [YMGS Pharmacy](https://ymgs-frontend.vercel.app/) &middot; [![Author Sanskar Gupta](https://img.shields.io/badge/Author-Sanskar-%3C%3E)](https://www.linkedin.com/in/sanskar-gupta-12476423b/)  
-[![GitHub](https://img.shields.io/badge/GitHub-%3C%3E)](https://github.com/Sanskargupta0/YMGS-Frontend)  
-[![React](https://img.shields.io/badge/React-%3C%3E)](https://react.dev/)  
+# [Nehed Medical Trading](https://pharma3-dusky.vercel.app/) &middot; [![React](https://img.shields.io/badge/React-%3C%3E)](https://react.dev/)  
 [![Vite](https://img.shields.io/badge/Vite-%3C%3E)](https://vitejs.dev/)  
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%3C%3E)](https://tailwindcss.com/)
 
 ## 📝 Project Description
 
-YMGS Pharmacy is a modern, full-featured e-commerce platform for online medicine and healthcare product delivery. Built with React and Vite, this frontend application provides a seamless shopping experience for customers to browse, search, and purchase medicines, health supplements, and medical supplies. The platform features a responsive design, dark/light theme support, multiple payment methods, guest checkout functionality, and comprehensive order management capabilities.
+Nehed Medical Trading is a modern, full-featured e-commerce platform for distributing diagnostic analyzers and rapid test kits, based in Tunisia. Built with React and Vite, this frontend application provides a seamless shopping experience for healthcare providers and laboratories to browse, search, and order hematology analyzers, point-of-care systems, and rapid diagnostic tests. The platform features a responsive design, dark/light theme support, multiple payment methods, guest checkout functionality, and comprehensive order management capabilities.
 
 ## ⚙️ Tech Stack
 

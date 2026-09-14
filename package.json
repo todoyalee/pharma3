@@ -1,6 +1,6 @@
 {
-  "name": "frontend",
-  "homepage": "https://www.ymgspharmacy.com",
+  "name": "nehed-medical-trading",
+  "homepage": "https://pharma3-dusky.vercel.app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
